@@ -1,0 +1,54 @@
+body{background-color: cyan;}
+
+h1{
+    color: green;
+}
+h2{ color: blue;}
+
+
+.flex-container{
+    background-color: tomato;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    
+     flex-grow: 1;
+    flex-shrink: 2; 
+}
+.box2{
+     flex-grow: 1; 
+}
+.box3{
+    flex-grow: 1; 
+   
+}
+.box4{
+     flex-grow: 1;
+}
+.box5{
+    flex-grow: 1;
+}
+.box6{
+    flex-grow: 1;
+}
+.box7{
+    flex-grow: 1;
+}.box8{
+    flex-grow: 1;
+}
+.flex-container > div{
+    background-color:seagreen;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+    height: 90px;
+    
+  
+}
+p{
+    text-align:center;
+    text-decoration-color: brown;
+}
+
